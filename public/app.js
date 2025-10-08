@@ -18,12 +18,11 @@ const applyTheme=(ui)=>{
 const buildButtons=(buttons)=>buttons.map((b)=>`<a class="booking-button" href="${escapeHtml(b.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(b.label)}</a>`).join('');
 const renderHub=(container,hub,config,isDeep)=>{
   document.title=`${hub.title} | 予約ハブ`;
-  const home=isDeep?'<a class="home-link" href="/">All Programs</a>':'';
-  container.innerHTML=`<header class="header">${home}<h1>${escapeHtml(hub.title)}</h1></header><section class="buttons">${buildButtons(hub.buttons)}</section>`;
+  container.innerHTML=`<header class="header"><h1>${escapeHtml(hub.title)}</h1></header><section class="buttons">${buildButtons(hub.buttons)}</section>`;
 };
 const renderMissing=(container,config,slug)=>{
   document.title='ページが見つかりません | 予約ハブ';
-  container.innerHTML=`<header class="header"><a class="home-link" href="/">All Programs</a><h1>ページが見つかりません</h1><p class="lead">指定されたスラッグ「${escapeHtml(slug)}」に該当する予約ページは存在しません。</p></header>`;
+  container.innerHTML=`<header class="header"><h1>ページが見つかりません</h1><p class="lead">指定されたスラッグ「${escapeHtml(slug)}」に該当する予約ページは存在しません。</p></header>`;
 };
 const resolveSlug=(config)=>{const raw=window.location.pathname.replace(/^\/+|\/+$/g,'');return raw||config.default_slug;};
 const syncHistory=(slug,config)=>{const target=slug===config.default_slug?'/':`/${slug}/`;if(window.location.pathname!==target)window.history.replaceState({},'',target);};
