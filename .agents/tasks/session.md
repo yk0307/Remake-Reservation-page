@@ -6,6 +6,9 @@
 2025-11-24 02:19 @codex [RESULT] npm run lint / npm run test 成功、最新UI刷新後も整合性を確認 (refs: package.json)
 2025-11-24 02:19 @codex [RUN] npm run lint / npm run test を実行 (refs: package.json)
 2025-11-24 02:17 @codex [BRIEF] Objective: 予約ハブのUIをよりモダンかつ「かっこいい」質感へ刷新 | Expected: グラデーションとガラス感で没入感を強化しカードの階層性を明確化 | Recommendation: CSSトークンを拡張しボタンの光彩・モーションと余白のメリハリで視認性を上げる
+2025-11-24 03:01 @codex [BRIEF] Objective: hubs.json が本番で旧キャッシュを返す問題を解消 | Expected: /data/hubs.json を no-store 配信にして毎デプロイ即時反映 | Recommendation: vercel.json に headers 追加後、develop デプロイを Production に昇格
+2025-11-24 03:01 @codex [RUN] npm run lint / npm run test を実行 (refs: package.json)
+2025-11-24 03:01 @codex [RESULT] npm run lint / npm run test 成功、ヘッダ追加後も整合性確認 (refs: package.json)
 2025-11-24 02:11 @codex [RESULT] npm run lint / npm run test 成功、レスポンシブUI更新後も整合性確認 (refs: package.json)
 2025-11-24 02:11 @codex [RUN] npm run lint / npm run test を実行 (refs: package.json)
 2025-11-24 02:10 @codex [BRIEF] Objective: 全スラッグ共通の予約ハブUIをレスポンシブ強化し質感を改善 | Expected: グリッド自動フィットとボタンホバー/フォーカス強化でスマホ〜PC一貫 | Recommendation: CSSトークン拡張でtheme依存性を担保 (refs: .agents/docs/plan-hub-ui.md)

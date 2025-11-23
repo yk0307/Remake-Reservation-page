@@ -1,4 +1,12 @@
 {
+  "headers": [
+    {
+      "source": "/data/hubs.json",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-store" }
+      ]
+    }
+  ],
   "routes": [
     { "handle": "filesystem" },
     { "src": "/data/hubs.json", "dest": "/data/hubs.json" },
