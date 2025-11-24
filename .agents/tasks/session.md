@@ -12,6 +12,9 @@
 2025-11-24 03:17 @codex [BRIEF] Objective: vercel.json の routes/headers 競合エラーを解消 | Expected: headers + rewrites 構成でデプロイ成功 | Recommendation: SPA 用 rewrite と hubs.json no-store を両立
 2025-11-24 03:18 @codex [RUN] npm run lint / npm run test を実行 (refs: package.json)
 2025-11-24 03:18 @codex [RESULT] npm run lint / npm run test 成功、テストを rewrites 対応へ更新 (refs: scripts/run-tests.js)
+2025-11-24 15:55 @codex [BRIEF] Objective: モテ育「単発コンサル(メイクあり)」メニューを削除 | Expected: hubs.json のみ更新で他UIは不変 | Recommendation: lint/test後にdevelop→mainも更新
+2025-11-24 15:56 @codex [RUN] npm run lint / npm run test を実行 (refs: package.json)
+2025-11-24 15:56 @codex [RESULT] npm run lint / npm run test 成功、メニュー削除後も整合性確認 (refs: package.json)
 2025-11-24 02:11 @codex [RESULT] npm run lint / npm run test 成功、レスポンシブUI更新後も整合性確認 (refs: package.json)
 2025-11-24 02:11 @codex [RUN] npm run lint / npm run test を実行 (refs: package.json)
 2025-11-24 02:10 @codex [BRIEF] Objective: 全スラッグ共通の予約ハブUIをレスポンシブ強化し質感を改善 | Expected: グリッド自動フィットとボタンホバー/フォーカス強化でスマホ〜PC一貫 | Recommendation: CSSトークン拡張でtheme依存性を担保 (refs: .agents/docs/plan-hub-ui.md)
