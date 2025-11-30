@@ -15,6 +15,9 @@
 2025-11-24 15:55 @codex [BRIEF] Objective: モテ育「単発コンサル(メイクあり)」メニューを削除 | Expected: hubs.json のみ更新で他UIは不変 | Recommendation: lint/test後にdevelop→mainも更新
 2025-11-24 15:56 @codex [RUN] npm run lint / npm run test を実行 (refs: package.json)
 2025-11-24 15:56 @codex [RESULT] npm run lint / npm run test 成功、メニュー削除後も整合性確認 (refs: package.json)
+2025-12-01 01:44 @codex [BRIEF] Objective: 各ページの「Remake」表記を「ReMake」に統一 | Expected: hubs.jsonのタイトル置換のみで機能は不変 | Recommendation: lint/test後 develop→main も同期
+2025-12-01 01:45 @codex [RUN] npm run lint / npm run test を実行 (refs: package.json)
+2025-12-01 01:45 @codex [RESULT] npm run lint / npm run test 成功、タイトル置換後も整合性確認 (refs: package.json)
 2025-11-24 02:11 @codex [RESULT] npm run lint / npm run test 成功、レスポンシブUI更新後も整合性確認 (refs: package.json)
 2025-11-24 02:11 @codex [RUN] npm run lint / npm run test を実行 (refs: package.json)
 2025-11-24 02:10 @codex [BRIEF] Objective: 全スラッグ共通の予約ハブUIをレスポンシブ強化し質感を改善 | Expected: グリッド自動フィットとボタンホバー/フォーカス強化でスマホ〜PC一貫 | Recommendation: CSSトークン拡張でtheme依存性を担保 (refs: .agents/docs/plan-hub-ui.md)
