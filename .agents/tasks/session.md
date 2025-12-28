@@ -1,5 +1,8 @@
 - 2025-10-08 @codex [NEXT] Vercel上で各feat/preview-<slug>ブランチのプレビュー設定を行う
 
+2025-12-28 19:28 @codex [BRIEF] Objective: 初回カウンセリング後に新メニュー2件を追加 | Expected: remakeの予約ボタンのみ更新でUIロジックは不変 | Recommendation: hubs.json更新後にlint/testで整合性確認 (refs: public/data/hubs.json)
+2025-12-28 19:28 @codex [RUN] npm run lint / npm test を実行 (refs: package.json)
+2025-12-28 19:28 @codex [RESULT] npm run lint / npm test 成功、追加メニュー反映後も整合性確認 (refs: package.json)
 2025-11-24 02:51 @codex [BRIEF] Objective: 各ページの「(メイクなし)」表記を外しラベルを簡潔化 | Expected: JSON更新のみでUIロジックは無変更 | Recommendation: hubs.jsonを更新後にlint/testで整合性確認
 2025-11-24 02:52 @codex [RESULT] npm run lint / npm run test 成功、メニュー表記変更後も整合性確認 (refs: package.json)
 2025-11-24 02:52 @codex [RUN] npm run lint / npm run test を実行 (refs: package.json)
