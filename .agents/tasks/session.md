@@ -1,5 +1,13 @@
 - 2025-10-08 @codex [NEXT] Vercel上で各feat/preview-<slug>ブランチのプレビュー設定を行う
 
+2026-02-01 16:57 @codex [RESULT] npm run lint / npm test 成功、URL差し替え後も整合性確認 (refs: package.json)
+2026-02-01 16:57 @codex [RUN] npm run lint / npm test を実行 (refs: package.json)
+2026-02-01 16:57 @codex [BRIEF] Objective: モテ育の「リピート」予約URLを差し替え | Expected: moteikuのボタンURLのみ更新で挙動は不変 | Recommendation: hubs.json更新後にlint/testで整合性確認 (refs: public/data/hubs.json)
+
+2026-02-01 16:45 @codex [RESULT] npm run lint / npm test 成功、URL差し替え後も整合性確認 (refs: package.json)
+2026-02-01 16:45 @codex [RUN] npm run lint / npm test を実行 (refs: package.json)
+2026-02-01 16:44 @codex [BRIEF] Objective: 一番星の「リピート」予約URLを差し替え | Expected: ichibanboshiのボタンURLのみ更新で挙動は不変 | Recommendation: hubs.json更新後にlint/testで整合性確認 (refs: public/data/hubs.json)
+
 2025-12-28 19:32 @codex [BRIEF] Objective: 追加メニューの表記を+から＆へ統一 | Expected: remakeのラベルのみ更新で挙動は不変 | Recommendation: hubs.json更新後にlint/testで整合性確認 (refs: public/data/hubs.json)
 2025-12-28 19:32 @codex [RUN] npm run lint / npm test を実行 (refs: package.json)
 2025-12-28 19:32 @codex [RESULT] npm run lint / npm test 成功、表記更新後も整合性確認 (refs: package.json)
